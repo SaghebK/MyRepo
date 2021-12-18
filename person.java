@@ -33,5 +33,10 @@ public class Person{
     System.out.println("New age is: " + emily.age);
     System.out.println("New wisdom is: " + emily.wisdom);
     System.out.println("New fitness is: " + emily.fitness);
+    Person Sagheb = new Person(24);
+   Sagheb.hasBirthday();
+    System.out.println("New age is: " + Sagheb.age);
+    System.out.println("New wisdom is: " + Sagheb.wisdom);
+    System.out.println("New fitness is: " + Sagheb.fitness);
   }
 }
